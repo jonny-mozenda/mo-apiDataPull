@@ -93,3 +93,7 @@ else:
 ```
 
 This final statement creates two lists: one for field names (columnslist) and one for value names (valueslist). It then iterates through each of the fields in the dataset. It identifies that there is a field name (the try-except statement) and then adds that field name to the columnslist and the value to the valueslist. It creates a new dataframe (df) if it's the very first iteration on the very first page. Otherwise, it creates df2 and appends it to the original df.
+
+## Data Frame to SQL table
+
+If you want to export this dataframe and add it to an existing database, check out my repository "Pandas Data Frame into a SQL Table".
