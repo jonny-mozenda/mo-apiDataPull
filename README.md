@@ -51,7 +51,7 @@ Here are the essentials to making the initial request to the Mozenda API. The We
 ```
 root = ET.fromstring(xml_data)
 
-pageCount = root[3].text
+pageCount = int(root[3].text)
 ```
 
 The ET.fromstring converts the initial string into and "Element Tree" which allows you call specific components of the list. Root[3] identifies the number of total pages there are. This allows you to create an element to identify how many pages to paginate through.
