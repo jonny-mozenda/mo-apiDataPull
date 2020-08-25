@@ -5,7 +5,7 @@ Using Mozenda's API to put scraped data into a DataFrame
 
 ### Dependencies
 
-Make sure you know your WebServiceKey and ViewID. You will use these to identify the data you are pulling in. Instructions on where to find these can be found here: https://docs.google.com/document/d/1RVWZN9ceePWD0UWFFL_DZKWc0182kc6BwKAKG-8VPzE/edit?usp=sharing
+Make sure you know your WebServiceKey and ViewID. You will use these to identify the data you are pulling in. Instructions on where to find these can be found here: https://help.mozenda.com/docs/en/generate-your-web-service-key
 
 ## Installing the Right Python Libraries
 
