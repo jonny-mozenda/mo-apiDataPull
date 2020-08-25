@@ -25,7 +25,7 @@ xml_data = response.text
 
 root = ET.fromstring(xml_data)
 
-pageCount = root[3].text
+pageCount = int(root[3].text)
 
 page = 1
 
